@@ -11,7 +11,7 @@ import br.com.trabalhopi.core.DAO.ReservaDAO;
 public class ReservaDAOTest {
 
 	@Test
-	public void testeReserva(){
+	public void testeReserva() {
 		ReservaDAO reservaDAO = new ReservaDAO();
 		Cliente cliente = new Cliente();
 		GuiaTurismo guia = new GuiaTurismo();
